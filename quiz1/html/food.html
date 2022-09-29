@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Muhammad Ismail</title>
+</head>
+<body>
+    <div id="main-page">
+        <!-- Header Section Start -->
+        <header id="header" class="bg-transparent absolute top-0 left-0 w-full flex items-center z-99">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <!-- logo -->
+                        <a href="#home" class="font-bold text-lg text-primary block py-6">Muhammad Ismail</a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                        </button>
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="/" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Home</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/profile" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Profile</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/hometown" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Hometown</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/food" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Food</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/tourist" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Tourist</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+        <!-- Profile Section Start -->
+        <section id="profile" class="pt-36">
+            <div class="container">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-lg text-secondary mb-2">Culinary in Surabaya</h4>
+                        <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl">My recomendation about culinary in Surabaya</h2>
+                        <p class="font-medium text-md text-secondary md:text-lg">These photos are culinary spot in Surabaya</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/sate-kelopo.jpg" alt="Sate kelopo ondomahen" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Sate Klopo Ondomohen</h3>
+                                <p class="font-medium text-base text-secondary mb-6">This unique Surabaya culinary tour is beef, chicken, intestine, shrimp or marrow satay that is grilled and served with satay seasoning as usual. Even though it looks the same, the tongue will feel a more tempting difference in taste. The slices of satay in this Surabaya culinary tour are bigger and have been seasoned with roasted coconut, this is what causes Sate Klopo Ondomohen to be more savory.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/bubur-ayam.jpg" alt="Bubur ayam Spensix" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Bubur ayam spensix</h3>
+                                <p class="font-medium text-base text-secondary mb-6">Chicken porridge is one of the foods that is often used as a breakfast menu. This is also one of the culinary tours of Surabaya in the morning. One of the famous chicken porridge is Sensix Chicken Porridge. Here, you can eat chicken porridge with a delicious liver and gizzard topping. The location is on the Gubeng highway, and is open every day from 6 am. The price, which is quite pocket-friendly, can be a tasty and economical breakfast option.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/rawon-setan.jpg" alt="Rawon Setan" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Rawon Setan</h3>
+                                <p class="font-medium text-base text-secondary mb-6">Rawon is a Surabaya culinary tour that should not be missed when visiting the city of Heroes. Mbak Endang's Rawon setan which is located on Jalan Embong Malang, Surabaya is the original and first rawon setan depot in Indonesia. Called rawon setan because this shop is only open at night. Rawon meat here is quite large and also tender. The taste of the broth is so appetizing. Located in the middle of the city, this rawon devil restaurant is never empty of visitors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Profile Section End -->
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/route.js"></script>
+</body>
+</html>

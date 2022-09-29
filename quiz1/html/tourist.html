@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Muhammad Ismail</title>
+</head>
+<body>
+    <div id="main-page">
+        <!-- Header Section Start -->
+        <header id="header" class="bg-transparent absolute top-0 left-0 w-full flex items-center z-99">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <!-- logo -->
+                        <a href="#home" class="font-bold text-lg text-primary block py-6">Muhammad Ismail</a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                        </button>
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="/" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Home</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/profile" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Profile</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/hometown" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Hometown</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/food" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Food</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/tourist" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Tourist</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+        <!-- Profile Section Start -->
+        <section id="profile" class="pt-36">
+            <div class="container">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-lg text-secondary mb-2">Tourism spot in Surabaya</h4>
+                        <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl">My recomendation about tourism in Surabaya</h2>
+                        <p class="font-medium text-md text-secondary md:text-lg">These photos are tourism spot in Surabaya</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/kbs.jpg" alt="Surabaya zoo" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Surabaya Zoo</h3>
+                                <p class="font-medium text-base text-secondary mb-6">This zoo is located on Jalan Setail, Darmo area, Wonokromo. Once the most complete zoo in Southeast Asia with a collection of 211 species and 2,236 animals. This zoo has several functions for visitors, including the function of education, recreation, conservation, and supporting research activities of researchers.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/house-sampoerna.jpg" alt="House of Sampoerna" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">House of Sampoerna</h3>
+                                <p class="font-medium text-base text-secondary mb-6">This Dutch colonial-style building is located on Jalan Taman Sampoerna Krembangan. Although it is hundreds of years old, it looks like a magnificent building. The front has four sturdy pillars that resemble the shape of a cigarette bar.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/tupal.jpg" alt="Tugu Pahlawan" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tugu Pahlawan</h3>
+                                <p class="font-medium text-base text-secondary mb-6">This building stands to commemorate the events of November 10, 1945, when the Suroboyo people fought against the allied invaders. The location of this monument is not far from the East Java Governor's Office. You can visit the location of this monument every day and it will usually be crowded on Sundays because it coincides with Car Free Day.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Profile Section End -->
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/route.js"></script>
+</body>
+</html>

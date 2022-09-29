@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometown Muhammad Ismail</title>
+</head>
+<body>
+    <div id="main-page">
+        <!-- Header Section Start -->
+        <header id="header" class="bg-transparent absolute top-0 left-0 w-full flex items-center z-99">
+            <div class="container">
+                <div class="flex items-center justify-between relative">
+                    <div class="px-4">
+                        <!-- logo -->
+                        <a href="#home" class="font-bold text-lg text-primary block py-6">Muhammad Ismail</a>
+                    </div>
+                    <div class="flex items-center px-4">
+                        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                        </button>
+                        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                            <ul class="block lg:flex">
+                                <li class="group">
+                                    <a href="/" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Home</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/profile" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Profile</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/hometown" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Hometown</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/food" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Food</a>
+                                </li>
+                                <li class="group">
+                                    <a href="/quiz1/tourist" onclick="route()" class="text-base text-dark py-2 mx-8 group-hover:text-primary flex">Tourist</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End -->
+        <!-- Profile Section Start -->
+        <section id="profile" class="pt-36">
+            <div class="container">
+                <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto text-center mb-16">
+                        <h4 class="font-semibold text-lg text-secondary mb-2">Hometown</h4>
+                        <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl">My Hometown Surabaya</h2>
+                        <p class="font-medium text-md text-secondary md:text-lg">I have been living in Surabaya since now. Surabaya is the capital city of East Java Province, Indonesia, as well as the largest metropolitan city in the province. Surabaya is the second largest city in Indonesia after Jakarta. The city is located 800 km east of Jakarta, or 435 km northwest of Denpasar, Bali. Surabaya is located on the north coast of the eastern part of Java Island and is opposite the Madura Strait and the Java Sea. Surabaya is known as the City of Heroes because of its history which is very calculated in the struggle of Arek-Arek Suroboyo (Surabaya youths) in defending the independence of the Indonesian nation from colonial attacks. Surabaya was also the largest city in the Dutch East Indies and became a commercial center in the archipelago which was parallel to Hong Kong and Shanghai at that time. You can find something interesting in Surabaya from these pictures</p>
+                    </div>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/tp.jpg" alt="Tunjungan Plaza" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Tunjungan Plaza</h3>
+                                <p class="font-medium text-base text-secondary mb-6">the most popular plaza in the people of the city of Surabaya, which was founded in 1986, and lastly opened Tunjungan Plaza VI in 2017. Tunjungan Plaza is located in Central Surabaya, precisely on Jl. Gen. Basuki Rahmat and leads up to Jl. Embong Malang. This shopping center has 6 main buildings that are interconnected (Tunjungan Plaza 1-6)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/its.jpg" alt="ITS" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">ITS</h3>
+                                <p class="font-medium text-base text-secondary mb-6">Sepuluh Nopember Institute of Technology (abbreviated as ITS) is a public university located in Surabaya. Initially, ITS was founded by the Technical College Foundation (YPTT) chaired by dr. Nitisastro's figures on November 10, 1957</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+                        <div class="bg-white rounded-xl overflow-hidden shadow-lg mb-10">
+                            <img src="../../assets/img/unair.jpg" alt="unair" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3 class="mb-3 font-semibold text-xl text-dark hover:text-primary truncate">Unair</h3>
+                                <p class="font-medium text-base text-secondary mb-6">The establishment of Airlangga University has a long history. Before Unair was officially established, on 9 and 11 October 1847, a proposal was submitted to the Dutch Colonial Government to educate talented Javanese youths to become experts in health practice. On January 2, 1849, through Government Decree no. 22, established NIAS (Nederlandsch Indische Artsen School)[12] as a place for medical education in Surabaya. Since 1913, medical education in Surabaya has taken place at Jalan Kedungdoro 38 Surabaya. In 1923, the NIAS building was moved from Jalan Kedungdoro to where the Faculty of Medicine was founded on Jalan Mayjen. Prof. Dr. Moestopo, Surabaya.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Profile Section End -->
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/route.js"></script>
+</body>
+</html>
